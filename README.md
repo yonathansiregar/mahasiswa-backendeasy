@@ -22,3 +22,46 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+#
+
+## Frontend website
+[Link Github] (https://github.com/Aldi-H/mahasiswa)
+
+- How to Launch this Frontend Website
+
+```sh
+git clone https://github.com/Aldi-H/mahasiswa.git
+```
+
+```sh
+npm run dev
+```
+
+## Backend website
+[Link GitHub] https://github.com/yonathansiregar/mahasiswa_backendeasy
+
+- How to Launch
+1. Clone the repository of this project.
+```sh
+git clone https://github.com/yonathansiregar/mahasiswa_backendeasy.git
+```
+
+2. Run this command below on your cmd or terminal
+```sh
+composer install
+```
+
+3. Copy ```.env.example``` file to ```.env.``` on the root. Change the database name (```DB_DATABASE```) to whatever you have, username (```DB_USERNAME```) and password (```DB_PASSWORD```) field correspond to your configuration
+
+4. Run this command below on your terminal
+```sh
+php artisan migrate
+```
+
+5. Run this project by this command below on your terminal
+```sh
+php -S localhost:8000 -t public
+```
+
+
