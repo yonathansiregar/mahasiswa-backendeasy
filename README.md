@@ -29,9 +29,14 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 [Link Github] (https://github.com/Aldi-H/mahasiswa)
 
 - How to Launch this Frontend Website
-
+1. Clone the repository of this project
 ```sh
 git clone https://github.com/Aldi-H/mahasiswa.git
+```
+
+2. Install any packages in it
+```sh
+npm install
 ```
 
 ```sh
@@ -42,14 +47,14 @@ npm run dev
 [Link GitHub] https://github.com/yonathansiregar/mahasiswa_backendeasy
 
 - How to Launch
-1. Clone the repository of this project.
+1. Clone the repository of this project
 ```sh
 git clone https://github.com/yonathansiregar/mahasiswa_backendeasy.git
 ```
 
 2. Run this command below on your cmd or terminal
 ```sh
-composer install
+composer update
 ```
 
 3. Copy ```.env.example``` file to ```.env.``` on the root. Change the database name (```DB_DATABASE```) to whatever you have, username (```DB_USERNAME```) and password (```DB_PASSWORD```) field correspond to your configuration
